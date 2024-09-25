@@ -1,0 +1,139 @@
+@font-face{
+  font-family:"Averta PE";
+  src: url('./assets/Averta/AvertaInside/usage/OTF_use/AvertaPE-Black.Trial.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:"Averta PE";
+  src: url('./assets/Averta/AvertaInside/usage/OTF_use/AvertaPE-Bold.Trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:"Averta PE";
+  src: url('./assets/Averta/AvertaInside/usage/OTF_use/AvertaPE-Light.Trial.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:"Averta PE";
+  src: url('./assets/Averta/AvertaInside/usage/OTF_use/AvertaPE-Regular.Trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: rgb(72, 206, 176);
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: rgb(255, 255, 255);
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: rgb(72, 206, 176);
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  font-family: "Averta PE";
+  line-height: 1.5;
+}
+.auth_header{
+  margin-bottom: 1rem;
+}
+.auth_header img{
+  width: 120px;
+}
+.headings{
+  margin-bottom: 3rem;
+}
+.flex_main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.auth_main{
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 85vh; 
+  flex: 0 0 1;
+  border: 1px solid #000;
+  margin: 5rem auto;
+}
+.input_wrap{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.input_wrap label{
+  display: block;
+  text-align: left;
+  color: var(--secondary);
+  font-size: 12px;
+}
+.input_wrap input{
+  width: 100%;
+  border: 1px solid var(--secondary);
+  height: 50px;
+  border-radius: 5px;
+  padding: 0 10px;
+  outline: 0;
+}
+.input_wrap .last-child{
+  margin-bottom: 0;
+}
+a{
+  text-decoration: none;
+  color: #007bff;
+  background-color: transparent
+}
+
+.auth_btn button{
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 50px;
+  outline: none;
+}
+.auth_content{
+  width: 430px;
+  gap: 15rem;
+}
+.des{
+  margin-top: 2px;
+  margin-bottom: 4rem;
+}
+
+
+
+
+
+
+
